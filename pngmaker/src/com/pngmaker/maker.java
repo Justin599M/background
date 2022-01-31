@@ -223,8 +223,8 @@ public class maker {
         }
         return 0;
     }
-    public String imagemaker(int yheight, int xwidth){  //maybe add some mint green
-        File destination = new File("C:\\Users\\justi\\Documents\\Project saves\\placeholder.png");
+    public String imagemaker(int yheight, int xwidth){ 
+        File destination = new File("C:\\newimage.png");
         BufferedImage makethis = new BufferedImage(xwidth,yheight,BufferedImage.TYPE_INT_RGB);
         Random random = new Random();
         for(int y = 0; y< yheight; y++){
